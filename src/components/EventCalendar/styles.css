@@ -1,0 +1,37 @@
+.timeline-painel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0.2rem;
+    margin-top: 1rem;
+  }
+  
+.timeline-header-days {
+    width: 78rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24px, 1fr));
+    gap: 2px;
+    position: relative;
+}
+  
+.timeline-header-months {
+    display: flex;
+    gap: 1px;
+}
+   
+.day {
+    background-color: #28323c;
+    padding: 0.4rem;
+    height: 72vh;
+    color: #afafaf;
+    font-size: 0.8rem;
+}
+  
+.events {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 0.5rem;
+    margin-top: 4rem;
+}
+  

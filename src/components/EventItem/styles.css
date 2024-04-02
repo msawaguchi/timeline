@@ -1,0 +1,44 @@
+.event {
+    display: flex;
+    background: #01b4a0;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    height: 15px;
+  
+  }
+  
+  .event:hover {
+    background: #078173;
+    min-width: 200px !important;
+    cursor: pointer;
+    transition: background .5s, width .5s;
+    z-index: 4;
+  }
+  
+  .event input {
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    text-overflow: ellipsis;
+  }
+  
+  .event input:focus {
+    outline: none;
+    text-overflow: clip;
+  }
+  
+  .tool {
+    width: 12rem;
+    background-color: #031b18;
+    opacity: 0.9;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    color: white;
+    font-size: 0.8rem;
+    top: 2rem;
+    border: 1px solid #0f6860;
+    z-index: 6;
+  }
